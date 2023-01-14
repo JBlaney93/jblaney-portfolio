@@ -12,12 +12,28 @@ body {
     border: 1px solid black;
 } */
 
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    background-color: #9DB5B2;
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar__container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 .nav-bar__ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
-    margin-bottom: 1.25rem;
-    background-color: #9DB5B2;
+    margin: 0 -0.625rem 1.25rem 
+    
     /* border: 1px solid black; */
 }
 
@@ -35,12 +51,8 @@ body {
     transition: all ease .5s;
 }
 
-.main-container {
-    max-width: 70%;
-    margin: 0 auto;
-}
 
-.footer {
+footer {
     text-align: center;
     padding: 20px;
     color: white;

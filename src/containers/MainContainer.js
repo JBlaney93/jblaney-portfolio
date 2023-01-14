@@ -13,7 +13,7 @@ const MainContainer = () => {
         <div >
             <Router>
                 <NavBar />
-                <div className="main-container">
+                <div className="container">
                     <Routes>
                         <Route path="/" element={ <Home /> }/>
                         <Route path="/jblaney-portfolio/contact" element={ <Contact /> }/>
