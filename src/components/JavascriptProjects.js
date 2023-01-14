@@ -1,11 +1,35 @@
 import React from "react";
+import styled from "styled-components";
+
+const Paragraph = styled.p`
+    margin-bottom: 0.625rem;
+`
+const Header = styled.h1`
+    font-weight: 300;
+    font-size: 2.375rem;
+    margin-bottom: 0.9375rem;
+`
+
+const SubHeader = styled.h2`
+    font-weight: 200;
+    font-size: 2rem;
+    margin-bottom: 0.3125rem;
+`
+
+const TertiaryHeader = styled.h2`
+    font-weight: 100;
+    font-size: 1.375rem;
+    margin-bottom: 0.3125rem;
+`
 
 const JavascriptProjects = () => {
     return (
         <div>
-            <h1>Show JavaScript Projects Here!</h1>
-            <p>Some React bits n bobs? Group Project</p>
+            <Header>JavaScript Project</Header>
+            <SubHeader>Group Project</SubHeader>
+            <TertiaryHeader>JavaScript | React | MongoDB | HTML & CSS</TertiaryHeader>
             <br></br>
+
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Est lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam tempor orci eu lobortis elementum nibh. Pharetra magna ac placerat vestibulum. Faucibus in ornare quam viverra. Sed egestas egestas fringilla phasellus faucibus scelerisque. Suspendisse interdum consectetur libero id faucibus. Quis eleifend quam adipiscing vitae proin sagittis. Erat nam at lectus urna. Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. Quis eleifend quam adipiscing vitae proin sagittis nisl. Suspendisse potenti nullam ac tortor vitae purus faucibus. Id venenatis a condimentum vitae sapien pellentesque habitant. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Cras tincidunt lobortis feugiat vivamus at augue. Nisl nunc mi ipsum faucibus vitae aliquet nec. A lacus vestibulum sed arcu non odio euismod lacinia.
 

@@ -1,25 +1,26 @@
 import React from "react";
 import styled from 'styled-components';
 
+
 const Paragraph = styled.p`
     margin-bottom: 0.625rem;
 `
 const Header = styled.h1`
     font-weight: 300;
-    font-size: 38px;
-    margin-bottom: 15px;
+    font-size: 2.375rem;
+    margin-bottom: 0.9375rem;
 `
 
 const SubHeader = styled.h2`
     font-weight: 200;
-    font-size: 32px;
-    margin-bottom: 5px;
+    font-size: 2rem;
+    margin-bottom: 0.3125rem;
 `
 
 const TertiaryHeader = styled.h2`
     font-weight: 100;
-    font-size: 22px;
-    margin-bottom: 5px;
+    font-size: 1.375rem;
+    margin-bottom: 0.3125rem;
 `
 
 const PythonProjects = () => {
@@ -35,8 +36,10 @@ const PythonProjects = () => {
             <Paragraph>This project was completed over just five days, from brief handout to submission. The development process was 
                 storied, stressful and also one of the most valuable learning experiences of my developer career thus far.
             </Paragraph>
+            <img src="components/images/travel-tracker-countries" />
+            <img src="components/images/travel-tracker-memories" />
 
-            
+
 
         </div>
     )

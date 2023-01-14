@@ -8,9 +8,9 @@ body {
     background-color: #DAF0EE;
 }
 
-.nav-bar__container {
-    /* border: 1px solid black; */
-}
+/* .nav-bar__container {
+    border: 1px solid black;
+} */
 
 .nav-bar__ul {
     display: flex;
@@ -43,7 +43,8 @@ body {
 .footer {
     text-align: center;
     padding: 20px;
+    color: white;
     background-color: #9DB5B2;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 

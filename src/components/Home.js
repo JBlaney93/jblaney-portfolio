@@ -1,11 +1,41 @@
 import React from "react";
+import styled from 'styled-components';
+
+
+const Paragraph = styled.p`
+    margin-bottom: 0.625rem;
+`
+const Header = styled.h1`
+    font-weight: 300;
+    font-size: 2.375rem;
+    margin-bottom: 0.9375rem;
+`
+
+const SubHeader = styled.h2`
+    font-weight: 200;
+    font-size: 2rem;
+    margin-bottom: 0.3125rem;
+`
+
+const TertiaryHeader = styled.h2`
+    font-weight: 100;
+    font-size: 1.375rem;
+    margin-bottom: 0.3125rem;
+`
+
+const Link = styled.a`
+    text-decoration:none;
+    font-weight: 100;
+    font-size: 1.375rem;
+    margin-bottom: 0.3125rem;
+`
 
 const Home = () => {
     return (
         <div>
-            <h1>HOMEPAGE</h1>
-            <p>Welcome to homepage!</p>
-            <p>About Me section</p>
+            <Header>James Blaney</Header>
+            <SubHeader>About Me</SubHeader>
+            <Link href="https://github.com/JBlaney93">GitHub</Link>
             <p>Studying program to make I more smarter</p>
             <br></br>
             <p>
