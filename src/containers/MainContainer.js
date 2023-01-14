@@ -10,15 +10,17 @@ import JavascriptProjects from "../components/JavascriptProjects";
 const MainContainer = () => {
 
     return (
-        <div className="main-container">
+        <div >
             <Router>
                 <NavBar />
-                <Routes>
-                    <Route path="/" element={ <Home /> }/>
-                    <Route path="/jblaney-portfolio/contact" element={ <Contact /> }/>
-                    <Route path="/jblaney-portfolio/python-projects" element={ <PythonProjects /> }/>
-                    <Route path="/jblaney-portfolio/javascript-projects" element={ <JavascriptProjects/> }/>
-                </Routes>
+                <div className="main-container">
+                    <Routes>
+                        <Route path="/" element={ <Home /> }/>
+                        <Route path="/jblaney-portfolio/contact" element={ <Contact /> }/>
+                        <Route path="/jblaney-portfolio/python-projects" element={ <PythonProjects /> }/>
+                        <Route path="/jblaney-portfolio/javascript-projects" element={ <JavascriptProjects/> }/>
+                    </Routes>
+                </div>
                 <Footer />
             </Router>
         </div>

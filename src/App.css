@@ -4,18 +4,29 @@
     /* border: 1px solid black; */
 }
 
+body {
+    background-color: #DAF0EE;
+}
+
+.nav-bar__container {
+    /* border: 1px solid black; */
+}
+
 .nav-bar__ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
     margin-bottom: 1.25rem;
+    background-color: #9DB5B2;
+    /* border: 1px solid black; */
 }
 
 .nav-bar__links {
-    color: black;
+    color: white;
     text-decoration: none;
     display: block;
-    padding: 0.9375rem 0.9375rem;
+    padding: 1.25rem 0.9375rem;
+    /* border: 1px solid black; */
 }
 
 .nav-bar__links:hover {
@@ -31,4 +42,8 @@
 
 .footer {
     text-align: center;
+    padding: 20px;
+    background-color: #9DB5B2;
+    margin-top: 50px;
 }
+
