@@ -1,5 +1,8 @@
 import React from "react";
 import styled from 'styled-components';
+// import 'travel-tracker-memories.png' from "../images"
+import pic from '../images/travel-tracker-memories.png';
+import pic2 from '../images/travel-tracker-countries.png';
 
 
 const Paragraph = styled.p`
@@ -36,8 +39,8 @@ const PythonProjects = () => {
             <Paragraph>This project was completed over just five days, from brief handout to submission. The development process was 
                 storied, stressful and also one of the most valuable learning experiences of my developer career thus far.
             </Paragraph>
-            <img src="components/images/travel-tracker-countries" />
-            <img src="components/images/travel-tracker-memories" />
+            <img src={pic2} />
+            <img src={pic} />
 
 
 
