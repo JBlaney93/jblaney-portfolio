@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jblaney-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/jblaney-portfolio/static/js/main.dc06334c.js",
+    "static/js/787.5866ce28.chunk.js": "/jblaney-portfolio/static/js/787.5866ce28.chunk.js",
+    "static/media/logo.svg": "/jblaney-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/jblaney-portfolio/index.html",
+    "main.073c9b0a.css.map": "/jblaney-portfolio/static/css/main.073c9b0a.css.map",
+    "main.dc06334c.js.map": "/jblaney-portfolio/static/js/main.dc06334c.js.map",
+    "787.5866ce28.chunk.js.map": "/jblaney-portfolio/static/js/787.5866ce28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.dc06334c.js"
+  ]
+}
