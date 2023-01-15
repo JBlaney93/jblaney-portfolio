@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #DAF0EE;
+    background-color: rgb(230, 230, 230);
 }
 
 /* .nav-bar__container {
@@ -18,7 +18,7 @@ body {
 }
 
 .nav-bar {
-    background-color: #9DB5B2;
+    background-color: grey;
     position: sticky;
     top: 0;
 }
@@ -58,5 +58,17 @@ footer {
     color: white;
     background-color: #9DB5B2;
     margin-top: 3.125rem;
+}
+
+
+.image-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3.125rem;
+}
+
+.image-container__main-image {
+    width: 50%;
+    max-width: 100%;
 }
 
