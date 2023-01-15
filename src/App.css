@@ -53,6 +53,11 @@ body {
 
 .codeclan-link {
     text-decoration: none;
+    color: #4DA2CC;
+}
+
+.codeclan-link:visited {
+    color: #4DA2CC;
 }
 
 .github-link {
