@@ -6,19 +6,19 @@ const Paragraph = styled.p`
     line-height: 1.6;
 `
 const Header = styled.h1`
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2.375rem;
     margin-bottom: 0.9375rem;
 `
 
 const SubHeader = styled.h2`
-    font-weight: 200;
+    font-weight: 300;
     font-size: 2rem;
     margin-bottom: 0.3125rem;
 `
 
 const TertiaryHeader = styled.h2`
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.375rem;
     margin-bottom: 0.3125rem;
 `

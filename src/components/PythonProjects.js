@@ -7,6 +7,7 @@ import pic2 from '../images/travel-tracker-countries.png';
 
 const Paragraph = styled.p`
     margin-bottom: 0.625rem;
+    line-height: 1.6;
 `
 const Header = styled.h1`
     font-weight: 400;
