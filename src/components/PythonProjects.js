@@ -31,7 +31,9 @@ const PythonProjects = () => {
     return (
         <div>
             <Header>Python Projects</Header>
-            <SubHeader>Travel Tracker</SubHeader>
+            <SubHeader>
+                Travel Tracker <a href="https://github.com/JBlaney93/travel_app_flask_solo_project" className="github-link">GitHub</a>
+            </SubHeader>
             <TertiaryHeader>Python | Flask | PostgreSQL | HTML & CSS</TertiaryHeader>
             <br></br>
             <Paragraph>Travel tracker was my first full project built as an aspiring developer</Paragraph>
