@@ -51,13 +51,43 @@ body {
     transition: all ease .5s;
 }
 
+.codeclan-link {
+    text-decoration: none;
+}
+
+.github-link {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.375rem;
+    color: white;
+    padding: 4px;
+    background-color: grey;
+    border-radius: 2px;
+}
+
+.github-link:hover {
+    background-color: #2EA043;
+    transition: all ease 1s;
+}
+
 
 footer {
-    text-align: center;
-    padding: 20px;
+    padding: 5px;
     color: white;
     background-color: grey;
     margin-top: 3.125rem;
+}
+
+/* .footer__container {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.footer__ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
 }
 
 
@@ -72,3 +102,45 @@ footer {
     max-width: 100%;
 }
 
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    background: #55acee00;
+    color: white;
+    /* border: 1px solid white; */
+    border-radius: 2px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* LinkedIn */
+.fa-linkedin:hover {
+    color: #1466C2;
+    transition: all ease .3s;
+}
+/* Twitter */
+.fa-twitter:hover {
+    color: #259BF0;
+    transition: all ease .3s;
+}
+
+/* Google */
+.fa-google:hover {
+    color: #D13D30;
+    transition: all ease .3s;
+}
+
+
+/* Instagram */
+.fa-instagram:hover {
+    color: #904700;
+    transition: all ease .3s;
+}

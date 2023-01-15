@@ -26,18 +26,24 @@ const TertiaryHeader = styled.h2`
 
 const Link = styled.a`
     text-decoration:none;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1.375rem;
-    margin-bottom: 0.3125rem;
 `
 
 const Home = () => {
     return (
         <div>
             <Header>James Blaney</Header>
-            <SubHeader>About Me</SubHeader>
-            <Link href="https://github.com/JBlaney93">GitHub</Link>
-            <Paragraph>Studying programming to make I more smarter.</Paragraph>
+            <SubHeader>
+                Junior Software Developer <a href="https://github.com/JBlaney93" className="github-link">GitHub</a>
+            </SubHeader>
+            <TertiaryHeader>About Me</TertiaryHeader>
+            <Paragraph>
+                I started my journey as a developer out of curiosity, completing an intorduction to 
+                Web Development course on Udemy. After this course, a hobby quickly became a passion for me.
+                I am currently studying Professional Software Development 
+                at <a href="https://codeclan.com/" className="codeclan-link">CodeClan</a> in Glasgow.
+            </Paragraph>
 
             <Paragraph>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Est lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam tempor orci eu lobortis elementum nibh. Pharetra magna ac placerat vestibulum. Faucibus in ornare quam viverra. Sed egestas egestas fringilla phasellus faucibus scelerisque. Suspendisse interdum consectetur libero id faucibus. Quis eleifend quam adipiscing vitae proin sagittis. Erat nam at lectus urna. Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. Quis eleifend quam adipiscing vitae proin sagittis nisl. Suspendisse potenti nullam ac tortor vitae purus faucibus. Id venenatis a condimentum vitae sapien pellentesque habitant. Purus faucibus ornare suspendisse sed nisi lacus sed viverra tellus. Cras tincidunt lobortis feugiat vivamus at augue. Nisl nunc mi ipsum faucibus vitae aliquet nec. A lacus vestibulum sed arcu non odio euismod lacinia.

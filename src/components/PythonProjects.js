@@ -36,7 +36,7 @@ const PythonProjects = () => {
             <br></br>
             <Paragraph>Travel tracker was my first full project built as an aspiring developer</Paragraph>
             <Paragraph>The brief for this project was to create a CRUD app to track someone's travel adventures.</Paragraph>
-            <Paragraph>This application utilizes Python and Flask, PostgreSQL for the databases and HTML5 and CSS for the styling.</Paragraph>
+            <Paragraph>This application utilizes Python and Flask, PostgreSQL for the databases and HTML5 & CSS for the styling.</Paragraph>
             <Paragraph>This project was completed over just five days, from brief handout to submission. The development process was 
                 storied, stressful and also one of the most valuable learning experiences of my developer career thus far.
             </Paragraph>
