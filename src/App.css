@@ -6,6 +6,13 @@
 
 body {
     background-color: rgb(230, 230, 230);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 /* .nav-bar__container {
@@ -54,6 +61,10 @@ body {
 .codeclan-link {
     text-decoration: none;
     color: #4DA2CC;
+}
+
+.codeclan-link:hover {
+    color: #1d4153;
 }
 
 .codeclan-link:visited {
