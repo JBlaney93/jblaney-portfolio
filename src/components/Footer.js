@@ -14,7 +14,7 @@ const Footer = () => {
                 <nav className="footer">
                     <ul className="footer__ul">
                         <li>
-                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="https://www.linkedin.com/in/james-blaney-657076261/" class="fa fa-linkedin"></a>
                         </li>
                         <li>
                             <a href="#" class="fa fa-twitter"></a>

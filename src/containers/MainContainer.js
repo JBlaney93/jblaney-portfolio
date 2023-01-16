@@ -16,10 +16,11 @@ const MainContainer = () => {
                     <NavBar />
                     <div className="container">
                         <Routes>
-                            <Route path="/jblaney-portfolio/home" element={ <Home /> }/>
-                            <Route path="/jblaney-portfolio/contact" element={ <Contact /> }/>
-                            <Route path="/jblaney-portfolio/python-projects" element={ <PythonProjects /> }/>
-                            <Route path="/jblaney-portfolio/javascript-projects" element={ <JavascriptProjects/> }/>
+                            <Route path="/" element={ <Home /> }/>
+                            <Route path="/jblaney-portfolio" element={ <Home /> }/>
+                            <Route path="/contact" element={ <Contact /> }/>
+                            <Route path="/python-projects" element={ <PythonProjects /> }/>
+                            <Route path="/javascript-projects" element={ <JavascriptProjects/> }/>
                         </Routes>
                     </div>
                 </main>

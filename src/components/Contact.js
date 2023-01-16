@@ -28,8 +28,17 @@ const Contact = () => {
     return (
         <div>
             <Header>Contact</Header>
-            <SubHeader>Welcome to the contact page</SubHeader>
-            <TertiaryHeader>linked in? github? twitter? email?</TertiaryHeader>
+            <SubHeader>You Can Find Me On</SubHeader>
+            <TertiaryHeader>
+                Linked In
+            </TertiaryHeader>
+            <TertiaryHeader>
+                GitHub
+            </TertiaryHeader>
+            <TertiaryHeader>
+                Twitter
+            </TertiaryHeader>
+            <p>(these links don't work yet)</p>
         </div>
     )
 }
