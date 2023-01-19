@@ -4,8 +4,7 @@ import Home from "../components/Home";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
-import PythonProjects from "../components/PythonProjects";
-import JavascriptProjects from "../components/JavascriptProjects";
+import Projects from "../components/Projects";
 
 const MainContainer = () => {
 
@@ -19,8 +18,7 @@ const MainContainer = () => {
                             <Route path="/" element={ <Home /> }/>
                             <Route path="/jblaney-portfolio" element={ <Home /> }/>
                             <Route path="/contact" element={ <Contact /> }/>
-                            <Route path="/python-projects" element={ <PythonProjects /> }/>
-                            <Route path="/javascript-projects" element={ <JavascriptProjects/> }/>
+                            <Route path="/projects" element={ <Projects /> }/>
                         </Routes>
                     </div>
                 </main>

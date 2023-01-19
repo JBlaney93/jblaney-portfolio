@@ -7,16 +7,10 @@ const NavBar = () => {
             <div className="container nav-bar__container">
                 <ul className="nav-bar__ul">
                     <li>
-                        <p className="nav-bar__links">BigBoyBlaney.com</p>
-                    </li>
-                    <li>
                         <Link to="/" className="nav-bar__links">Home</Link>
                     </li>
                     <li>
-                        <Link to="/python-projects" className="nav-bar__links">Python Projects</Link>
-                    </li>
-                    <li>
-                        <Link to="/javascript-projects" className="nav-bar__links">JavaScript Projects</Link>
+                        <Link to="/projects" className="nav-bar__links">Projects</Link>
                     </li>
                     <li>
                         <Link to="/contact" className="nav-bar__links">Contact</Link>

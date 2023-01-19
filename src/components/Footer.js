@@ -17,16 +17,13 @@ const Footer = () => {
                             <a href="https://www.linkedin.com/in/james-blaney-657076261/" class="fa fa-linkedin"></a>
                         </li>
                         <li>
-                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="https://github.com/JBlaney93" class="fa fa-github"></a>
                         </li>
-                        <li>
-                            <a href="#" class="fa fa-google"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="fa fa-instagram"></a>
-                        </li>
+                        {/* <li>
+                            <a href="jamesblaneydev@gmail.com" class="fa fa-google"></a>
+                        </li> */}
                     </ul>
-                    <FooterText>Copyright BigBoyBlaney 2023</FooterText>
+                    <FooterText>© James Blaney 2023</FooterText>
                 </nav>
             </div>
         </footer>
