@@ -4,7 +4,8 @@ import styled from 'styled-components';
 const FooterText = styled.p`
     line-height: 1.6;
     text-align: center;
-    /* margin: 5px 0; */
+    font-size: 14px;
+    font-weight: 200;
 `
 
 const Footer = () => {
@@ -23,7 +24,7 @@ const Footer = () => {
                             <a href="jamesblaneydev@gmail.com" class="fa fa-google"></a>
                         </li> */}
                     </ul>
-                    <FooterText>© James Blaney 2023</FooterText>
+                    <FooterText>©JamesBlaney2023</FooterText>
                 </nav>
             </div>
         </footer>
