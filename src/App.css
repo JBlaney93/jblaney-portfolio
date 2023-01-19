@@ -195,8 +195,9 @@ footer {
     border-radius: 2px;
 }
 
+
 /* CONTACT */
-.header-container-contact {
+.container-contact {
     display: flex;
     flex-direction: column;
     align-items: center;

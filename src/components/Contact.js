@@ -4,13 +4,7 @@ import styled from 'styled-components';
 
 const Contact = () => {
     return (
-        <div>
-            <header className="header-container">
-                {/* <h1 className="primary-header">
-                    CONTACT
-                </h1> */}
-            </header>
-            <article className="header-container-contact">
+            <div className="container-contact">
                 <a
                 href="https://www.linkedin.com/in/james-blaney-657076261/"
                 className="contact-links">
@@ -25,9 +19,9 @@ const Contact = () => {
                 href="#"
                 className="contact-links">
                     JAMESBLANEYDEV@GMAIL.COM
+                    {/* CANNOT GET THIS TO FLEX WRAP FOR MOBILE DISPLAY */}
                 </a>
-            </article>
-        </div>
+            </div>
     )
 }
 
