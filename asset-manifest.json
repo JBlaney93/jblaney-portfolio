@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jblaney-portfolio/static/css/main.b6d3d6d6.css",
-    "main.js": "/jblaney-portfolio/static/js/main.66341134.js",
+    "main.css": "/jblaney-portfolio/static/css/main.2d86dbe7.css",
+    "main.js": "/jblaney-portfolio/static/js/main.98348085.js",
     "static/media/travel-tracker-memories.png": "/jblaney-portfolio/static/media/travel-tracker-memories.c1cc4828156f59ecae72.png",
     "static/media/travel-tracker-countries.png": "/jblaney-portfolio/static/media/travel-tracker-countries.7963f2cbcf4c5292ccb7.png",
     "index.html": "/jblaney-portfolio/index.html",
-    "main.b6d3d6d6.css.map": "/jblaney-portfolio/static/css/main.b6d3d6d6.css.map",
-    "main.66341134.js.map": "/jblaney-portfolio/static/js/main.66341134.js.map"
+    "main.2d86dbe7.css.map": "/jblaney-portfolio/static/css/main.2d86dbe7.css.map",
+    "main.98348085.js.map": "/jblaney-portfolio/static/js/main.98348085.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6d3d6d6.css",
-    "static/js/main.66341134.js"
+    "static/css/main.2d86dbe7.css",
+    "static/js/main.98348085.js"
   ]
 }
