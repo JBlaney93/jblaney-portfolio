@@ -9,14 +9,23 @@ const PythonProjects = () => {
     return (
         <div>
             <div className="header-container">
-                <h1 className="primary-header">PROJECTS</h1>
+                <h1 className="primary-header">
+                    PROJECTS
+                </h1>
             </div>
             
             <div className="projects-container">
                 <div className="projects-container__item">
                     <h2 className="secondary-header">
-                        Travel Tracker <a href="https://github.com/JBlaney93/travel_app_flask_solo_project" className="github-link">GitHub</a>
+                        Travel Tracker 
+                        
+                        <a
+                         href="https://github.com/JBlaney93/travel_app_flask_solo_project" 
+                        className="github-link">
+                            GitHub
+                        </a>
                     </h2>
+
                     <h2 className="tertiary-header">Python | Flask | PostgreSQL | HTML & CSS</h2>
 
                     <article>
@@ -43,12 +52,18 @@ const PythonProjects = () => {
                         <img src={tt_countries_pic} className="image-container__main-image" />
                         <img src={tt_memories_pic} className="image-container__main-image"/>
                     </div>
+
                 </div>
-                <div>
-                    <h2 className="secondary-header">Group Project</h2>
-                    <h2 className="tertiary-header">JavaScript | React | MongoDB | HTML & CSS</h2>
+                
+                <div className="projects-container__item">
+                    <h2 className="secondary-header">
+                        Group Project
+                        </h2>
+                    <h2 className="tertiary-header">
+                        JavaScript | React | MongoDB | HTML & CSS
+                    </h2>
                     <p className="paragraph">
-                    Construction for this project is currently underway. Coming soon.
+                        Construction for this project is currently underway. Coming soon.
                     </p>
                 </div>
             </div>

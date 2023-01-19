@@ -2,14 +2,13 @@ import React from "react";
 import styled from 'styled-components';
 
 
-
 const Contact = () => {
     return (
         <div>
             <header className="header-container">
-                <h1 className="primary-header">
+                {/* <h1 className="primary-header">
                     CONTACT
-                </h1>
+                </h1> */}
             </header>
             <article className="header-container-contact">
                 <a
