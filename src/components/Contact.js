@@ -18,7 +18,7 @@ const Contact = () => {
                 <a
                 href="#"
                 className="contact-links">
-                    JAMESBLANEYDEV@GMAIL.COM
+                    JAMES@BLANEY.DEV
                     {/* CANNOT GET THIS TO FLEX WRAP FOR MOBILE DISPLAY */}
                 </a>
             </div>

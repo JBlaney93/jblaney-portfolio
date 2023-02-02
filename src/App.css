@@ -241,3 +241,7 @@ footer {
     color: #2EA043;
     transition: all ease .3s;
 }
+
+.video-container {
+    text-align: center;
+}

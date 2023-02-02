@@ -1,6 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
-import './Projects.css';
+// import './Projects.css';
 import tt_countries_pic from '../images/travel-tracker-countries.png';
 import tt_memories_pic from '../images/travel-tracker-memories.png';
 
@@ -57,15 +57,41 @@ const PythonProjects = () => {
                 
                 <div className="projects-container__item">
                     <h2 className="secondary-header">
-                        Group Project
+                        PowerPong League
                         </h2>
                     <h2 className="tertiary-header">
                         JavaScript | React | MongoDB | HTML & CSS
                     </h2>
-                    <p className="paragraph">
-                        Construction for this project is currently underway. Coming soon.
-                    </p>
+
+                    <article>
+                        <p className="paragraph">
+                            PowerPong League resulted from a group project assigment completed during my time at
+                            CodeClan. The brief was to create a browser game incorportating database functionality
+                            that allows user interaction.
+                        </p>
+                        <p className="paragraph">
+                            Our idea turned into PowerPong League.
+                            Experience thrilling competition with PowerPong League,
+                            the ultimate tool for tracking and ranking table tennis matches.
+                            View all recent match results and
+                            see how you stack up on the leaderboard, with in-depth win/loss statistics.
+                        </p>
+                    </article>
+
+                     <div className="video-container">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/RszEZboG7Do"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
                 </div>
+                
             </div>
         </div>
     )
