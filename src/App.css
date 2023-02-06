@@ -101,6 +101,12 @@ main {
     transition: all ease .5s;
 }
 
+@media only screen and (max-width: 600px) {
+    .nav-bar__links {
+      font-size: .75rem;
+    }
+  }
+
 
 /* HOME PAGE */
 
@@ -237,7 +243,7 @@ footer {
 /* CONTACT */
 .container-contact {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     align-items: center;
     gap: 2rem;
@@ -250,6 +256,12 @@ footer {
     text-decoration: none;
     color: var(--linkcolor);
 }
+
+@media only screen and (max-width: 600px) {
+    .contact-links {
+      font-size: 2rem;
+    }
+  }
 
 .contact-links:visited {
     color: var(--linkcolor);
