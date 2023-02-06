@@ -21,6 +21,7 @@ const Contact = () => {
                     JAMES@BLANEY.DEV
                     {/* CANNOT GET THIS TO FLEX WRAP FOR MOBILE DISPLAY */}
                 </a>
+                {/* TEST COMMENT */}
             </div>
     )
 }
