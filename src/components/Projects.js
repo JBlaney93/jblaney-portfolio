@@ -91,6 +91,42 @@ const PythonProjects = () => {
                     </div>
 
                 </div>
+
+                <div className="projects-container__item">
+                    <h2 className="secondary-header">
+                        RISE
+                        </h2>
+                    <h2 className="tertiary-header">
+                        TypeScript | React | Java | Spring | HTML & CSS
+                    </h2>
+
+                    <article>
+                        <p className="paragraph">
+                            RISE is a budgeting app and educational tool aimed at young adults.
+                            This was a group project completed with two other developers for 
+                            our final project before graduting from CodeClan
+                        </p>
+                        <p className="paragraph">
+                            This project was completed over a two week period. As a group we 
+                            set ourselves the goal of utilizing TypeScript for this app, 
+                            something that was completely new to us.
+                            The backend was built using Java and Spring with a PostgreSQL database.
+                        </p>
+                    </article>
+
+                     <div className="video-container">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/URqShLx-6j8"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                </div>
                 
             </div>
         </div>
