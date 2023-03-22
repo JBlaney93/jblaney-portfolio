@@ -24,7 +24,7 @@ const Home = () => {
                 <p className="paragraph">
                     I started my journey as a developer out of curiosity, completing an introduction to
                     Web Development course on Udemy. After this course, a hobby quickly became a passion for me.
-                    I am currently studying Professional Software Development
+                    I have recently graduated from the Professional Software Development course
                     at <a href="https://codeclan.com/" className="codeclan-link">CodeClan</a> in Glasgow.
                 </p>
             </article>
